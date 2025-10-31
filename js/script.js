@@ -1,8 +1,8 @@
-// DOM ELEMENT REFERENCES
+// Select elements
 let cityInput = document.getElementById("city_input"),
   searchBtn = document.getElementById("searchBtn"),
   locationBtn = document.getElementById("locationBtn"),
-  api_key = typeof apiKey !== "undefined" ? apiKey : "",
+  api_key = typeof apiKey !== "undefined" ? apiKey : "", // Check if key is defined
   currentWeatherCard = document.querySelector(".weather-left .card"),
   fiveDaysForecastCard = document.querySelector(".day-forecast"),
   aqiCard = document.querySelectorAll(".highlights .card")[0],
@@ -15,12 +15,15 @@ let cityInput = document.getElementById("city_input"),
   hourlyForecastCard = document.querySelector(".hourly-forecast"),
   aqiList = ["Good", "Fair", "Moderate", "Poor", "Very Poor"];
 
-console.log("API Key loaded:", api_key);
-
-
-// Warn if API key is missing (in case config.js wasn’t loaded)
+// Warn if no API key (useful for GitHub Pages)
 if (!api_key) {
-  console.warn("Warning: apiKey is not defined. Add it to js/config.js");
+  console.warn("⚠️ API key not found. Location-based features will be disabled.");
+  if (locationBtn) {
+    locationBtn.disabled = true;
+    locationBtn.style.opacity = "0.6";
+    locationBtn.style.cursor = "not-allowed";
+    locationBtn.title = "Location search unavailable in demo mode";
+  }
 }
 
 
