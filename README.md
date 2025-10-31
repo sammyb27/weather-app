@@ -32,7 +32,7 @@ The app fetches live weather details such as temperature, humidity, wind speed, 
 3. Copy your personal API key.
 
 ### 2. Add the API Key Securely to Your Project
-Since this project doesn’t use an `.env` file, we’ll store the key using a separate `config.js` file that is **not pushed to GitHub**.
+This project doesn’t use an `.env` file and as such, we’ll store the key using a separate `config.js` file that is **not pushed to GitHub**.
 
 #### Steps:
 1. Inside your project directory, create a folder named `js` if it doesn’t already exist.
@@ -78,6 +78,10 @@ Since this project doesn’t use an `.env` file, we’ll store the key using a s
 ## 📦 Deployment (Live Demo)
 
 🔗 **Live Site:** [https://sammyb27.github.io/weather-app](https://sammyb27.github.io/weather-app)
+
+⚠️ Note: The live demo runs in demo mode (only shows the project UI) since the API key is hidden for security reasons.  
+To experience full functionality, please follow the setup steps and add your own OpenWeatherMap API key locally.
+
 
 ---
 
