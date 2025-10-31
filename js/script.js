@@ -15,6 +15,8 @@ let cityInput = document.getElementById("city_input"),
   hourlyForecastCard = document.querySelector(".hourly-forecast"),
   aqiList = ["Good", "Fair", "Moderate", "Poor", "Very Poor"];
 
+console.log("API Key loaded:", api_key);
+
 
 // Warn if API key is missing (in case config.js wasn’t loaded)
 if (!api_key) {
