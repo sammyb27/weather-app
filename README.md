@@ -61,13 +61,19 @@ Since this project doesn’t use an `.env` file, we’ll store the key using a s
 ### 🖥 Desktop View — After Search
 ![Desktop View — After Search](./assets/screenshots/desktop-view-after.png)
 
-### 📱 Mobile View (Responsive) — Before Search
-![Mobile View — Before Search](./assets/screenshots/mobile-view-before.png)
+## Mobile View (Responsive) — Before Search
+<p align="center">
+  <img src="./assets/screenshots/mobile-view-before.png" width="300">
+</p>
 
-### 📱 Mobile View (Responsive) — After Search
-![Mobile View — After Search](./assets/screenshots/mobile-view-after.png)
+## Mobile View (Responsive) — After Search
+<p align="center">
+  <img src="./assets/screenshots/mobile-view-after.png" width="300">
+</p>
+
 
 ---
+
 
 ## 📦 Deployment (Live Demo)
 
