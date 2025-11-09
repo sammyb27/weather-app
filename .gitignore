@@ -1,3 +1,4 @@
-js/config.js
+# Frontend specific ignores
+frontend/js/config.js
 
 
