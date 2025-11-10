@@ -1,3 +1,6 @@
+# Backend specific ignores
+backend/node_modules/
+
 # Frontend specific ignores
 frontend/js/config.js
 
