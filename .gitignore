@@ -3,6 +3,3 @@
 
 # Environment Variables
 /backend/.env
-
-# Frontend API Key Configuration
-/frontend/js/config.js
