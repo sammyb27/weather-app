@@ -1,8 +1,8 @@
-# Backend specific ignores
-backend/node_modules/
-backend/.env
+# Dependencies
+/backend/node_modules
 
-# Frontend specific ignores
-frontend/js/config.js
+# Environment Variables
+/backend/.env
 
-
+# Frontend API Key Configuration
+/frontend/js/config.js
